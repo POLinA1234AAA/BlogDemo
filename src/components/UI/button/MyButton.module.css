@@ -1,0 +1,23 @@
+:root {
+    --glass: rgba(255, 255, 255, 0.2);
+    --glass-icon: rgba(255, 255, 255, 0.3);
+    --gradient: linear-gradient(35deg, darkblue, rebeccapurple);
+    --option: #320a28;
+}
+
+.myBtn {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    margin: 1em;
+    height: 3em;
+    padding: 0  0.6em ;
+    background: linear-gradient( var(--glass-icon) 3em, var(--glass) 3em);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}

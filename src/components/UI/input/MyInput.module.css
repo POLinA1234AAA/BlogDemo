@@ -1,0 +1,26 @@
+:root {
+    --glass: rgba(255, 255, 255, 0.2);
+    --glass-icon: rgba(255, 255, 255, 0.3);
+    --gradient: linear-gradient(35deg, darkblue, rebeccapurple);
+    --option: #320a28;
+}
+
+.myInput {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 50em;
+    height: 3em;
+    padding: 0.5em 4em 0.5em 1em;
+    background: linear-gradient( var(--glass-icon) 3em, var(--glass) 3em);
+
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 1em 0em 1em 0em;
+}
+.myInput::placeholder{
+    color: white;
+}
